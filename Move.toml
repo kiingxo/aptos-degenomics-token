@@ -1,0 +1,9 @@
+[package]
+name = 'degenomics-token'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+admin = '0xb31ca31f2b7ee71eeac1c77098b8a0e1e7a8bd4d163d41488464abd3878b3cd7'
